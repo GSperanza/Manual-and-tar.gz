@@ -30,19 +30,24 @@ R, RStudio installation: (see also:  https://cloud.r-project.org/ and  https://w
 RxpsG installation:
 
     1. Click on the RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it starts automatically.
+     
+    2. Control in the Dowloads folder the RxpsG_xx.xx.tar.gz and instPkgs.r packages are present (it could be the .gz extension is lacking do not worry).
     
-    2. Dowload the macro  instPkgs.r
+    3. Run RStudio 
     
-    3. Control in the Dowloads folder the RxpsG_xx.xx.tar.gz and instPkgs.r packages are present (it could be the .gz extension is lacking do not worry).
-    
-    4. Run RStudio 
-    
-    5. Under RStudio -> Code -> Source File   browse the  instPckgs.r file. Then install all the needed libraries typing:
-       instPckgs() 
+    4. Under RStudio -> Code -> Source File   browse the  RxpsG_xx.xx.tar.gz file. Then press  install  button
+       
+       dependencies should activate the installation of the needed libratries and finally the RxpsG package
        the installation will take one or two minutes.
+       
+       If the procedure does not work install manually the needed libraries:
+       RStudio -> Code -> CRAN 
+       enter the name of the following libraries and press install:
+       digest, gWidgets2, gWidgets2tcltk, import, latticeExtra, memoise, minpack.lm, signal, rootSolve
     
-    5. Under RStudio open the Tools menu -> Install Packages -> Package Archive File ( *.tar.gz ) 
-       browse the Rxpsg.xx.xx.tar.gz  file and install it
+    5. To run RxpsG, in RStudio select the PACKAGE pain and select the RxpsG package 
+       then type:
+       xps()
     
    
 
