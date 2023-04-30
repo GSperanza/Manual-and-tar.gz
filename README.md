@@ -7,7 +7,7 @@ R, RStudio installation: (see also:  https://cloud.r-project.org/ and  https://w
     
     2. Run Rstudio and open the Tools menu -> Global Options;
     
-    3. Verify all is working: open RStudio and type:
+    3. Verify all is working by typing:
        version
        you should get something like:
        
