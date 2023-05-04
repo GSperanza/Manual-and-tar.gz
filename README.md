@@ -31,21 +31,33 @@ RxpsG installation:
 
     1. Click on the RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it starts automatically.
      
-    2. Control in the Dowloads folder the RxpsG_xx.xx.tar.gz and instPkgs.r packages are present (it could be the .gz extension is lacking do not worry).
+    2. Control in the Dowloads folder the RxpsG_xx.xx.tar.gz package is present (it could be the .gz extension is lacking do not worry).
     
     3. Run RStudio 
     
-    4. Under RStudio -> Code -> Source File   browse the  RxpsG_xx.xx.tar.gz file. Then press  install  button
+    4. Under RStudio -> Tools 
+                           -> Install Packages   
+                                           
+       ==> Verify the destination folder corresponds to that of the installed R version
        
-       dependencies should activate the installation of the needed libratries and finally the RxpsG package
-       the installation will take one or two minutes.
+       ==> mark the checkbox INSTALL DEPENDENCIES                                    
+           ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾                                
+       ==> select option INSTALL FROM PACKAGE ARCHIVE
+         
+       ==> browse the  RxpsG_xx.xx.tar.gz file. 
+     
+       ==> Press the  INSTALL  button
        
-       If the procedure does not work install manually the needed libraries:
-       RStudio -> Code -> CRAN 
-       enter the name of the following libraries and press install:
+       Controll that during installation also the additional libraries listed in the dependencies are installed:
        digest, gWidgets2, gWidgets2tcltk, import, latticeExtra, memoise, minpack.lm, signal, rootSolve
+       
+       If the procedure does not work you must install manually the needed libraries:
+       RStudio -> Tools -> Install Packages
+       ==> select option INSTALL FROM CRAN 
+       ==> enter one by one the names of the following libraries and press install:
+           digest, gWidgets2, gWidgets2tcltk, import, latticeExtra, memoise, minpack.lm, signal, rootSolve
     
-    5. To run RxpsG, in RStudio select the PACKAGE pain and select the RxpsG package 
+    5. To run RxpsG, in RStudio select the PACKAGE pain (generally on the right of the RStudio console) and select the RxpsG package 
        then type:
        xps()
     
