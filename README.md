@@ -50,7 +50,8 @@ RxpsG installation:
 
        where Path-To-Tar.Gz is the path to the dowloaded RxpsG_2.3-2.tar.gz file.
        
-    6. To run RxpsG, in RStudio select the PACKAGE pain (generally on the right of the RStudio console) and select the RxpsG             package then type:
+    6. To run RxpsG, in RStudio select the PACKAGE pain (generally on the right of the RStudio console) 
+       and select the RxpsG package then type:
      
        xps()
 
