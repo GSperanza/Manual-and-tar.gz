@@ -51,7 +51,7 @@ RxpsG installation:
 To run RxpsG, in RStudio select the PACKAGE pain (generally on the right of the RStudio console) and select the RxpsG package. This should automatically load and run the software.
 The command   'xps()'   also starts the RxpsG program.
 
-This program is free software. You can use it under the terms of the GNU Affero General Public License. http://www.gnu.org/licenses/ and licenses linked to the use of the R, Rstudio platforms.
+This program is free software. You can use it under the terms of the GNU General Public License. http://www.gnu.org/licenses/ and licenses linked to the use of the R, Rstudio platforms.
 
 -----
 
